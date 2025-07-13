@@ -3,9 +3,9 @@
 ## Objective
 Implement ProductPeer's core features using tldraw + Liveblocks to evaluate development velocity, extensibility, and product fit.
 
-## Week 1: Basic Collaborative Canvas
+## Phase 1: Basic Collaborative Canvas
 
-### Day 1: Setup & Basic Canvas
+### Feature Set 1A: Setup & Basic Canvas
 ```bash
 # Initialize project
 npx create-liveblocks-app@latest --example nextjs-tldraw-whiteboard-storage --api-key
@@ -24,7 +24,7 @@ cd tldraw-liveblocks-experiment
 - Changes sync in real-time
 - No setup blockers
 
-### Day 2-3: Enhance Collaboration Features
+### Feature Set 1B: Enhance Collaboration Features
 **Tasks:**
 1. [ ] Implement better presence UI
 2. [ ] Add user list sidebar
@@ -37,9 +37,9 @@ cd tldraw-liveblocks-experiment
 - Performance metrics logged
 - Screenshot of presence UI
 
-## Week 2: Custom Blocks (Card & CardStack)
+## Phase 2: Custom Blocks (Card & CardStack)
 
-### Day 4-5: Card Shape Implementation
+### Feature Set 2A: Card Shape Implementation
 ```typescript
 // Custom Card Shape
 class CardShape extends TLBoxShape {
@@ -68,7 +68,7 @@ class CardShape extends TLBoxShape {
 4. [ ] Style to match ProductPeer aesthetic
 5. [ ] Make content collaborative
 
-### Day 6-7: CardStack Container
+### Feature Set 2B: CardStack Container
 **Tasks:**
 1. [ ] Create CardStack shape
 2. [ ] Implement Card containment logic
@@ -81,9 +81,9 @@ class CardShape extends TLBoxShape {
 - Sync drag operations through presence
 - Handle concurrent edits gracefully
 
-## Week 3: ProductPeer MVP Features
+## Phase 3: ProductPeer MVP Features
 
-### Day 8: Lean Canvas Template
+### Feature Set 3A: Lean Canvas Template
 ```typescript
 // Lean Canvas layout
 const LEAN_CANVAS_SECTIONS = [
@@ -101,7 +101,7 @@ const LEAN_CANVAS_SECTIONS = [
 4. [ ] Implement template instantiation
 5. [ ] Save templates to library
 
-### Day 9: AI Integration
+### Feature Set 3B: AI Integration
 **Tasks:**
 1. [ ] Add AI chat component
 2. [ ] Implement "Generate Card" command
@@ -114,7 +114,7 @@ const LEAN_CANVAS_SECTIONS = [
 - Assumption analysis
 - Simple suggestions
 
-### Day 10: Access Control
+### Feature Set 3C: Access Control
 **Tasks:**
 1. [ ] Add board privacy settings
 2. [ ] Implement share dialog
@@ -158,10 +158,10 @@ interface ImplementationMetrics {
    - Dev tools support
    - State inspection ease
 
-## Daily Log Template
+## Progress Log Template
 
 ```markdown
-## Day X: [Feature Name]
+## Feature Set X: [Feature Name]
 
 ### What Worked Well
 - 
@@ -174,10 +174,10 @@ interface ImplementationMetrics {
 // Most interesting code from today
 ```
 
-### Time Spent
-- Research: X hours
-- Implementation: Y hours
-- Debugging: Z hours
+### Implementation Notes
+- Key challenges faced
+- Solutions implemented
+- Dependencies identified
 
 ### Comparison Notes
 How would this be different in Excalidraw?
@@ -206,7 +206,7 @@ How would this be different in Excalidraw?
 - [ ] Future roadmap alignment
 
 ### Business Scorecard
-- [ ] Time to MVP (days)
+- [ ] Implementation complexity level
 - [ ] Liveblocks efficiency (API calls)
 - [ ] Projected monthly cost at 1K users
 - [ ] Vendor lock-in level
@@ -214,17 +214,17 @@ How would this be different in Excalidraw?
 
 ## Success Metrics
 
-**Week 1 Success:**
+**Phase 1 Success:**
 - Collaborative canvas working
 - 5+ users tested successfully
 - < 100ms sync latency
 
-**Week 2 Success:**
+**Phase 2 Success:**
 - Card and CardStack shapes functional
 - Drag-drop working smoothly
 - Modal editing implemented
 
-**Week 3 Success:**
+**Phase 3 Success:**
 - Lean Canvas template complete
 - Basic AI integration working
 - Permissions system functional

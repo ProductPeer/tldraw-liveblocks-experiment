@@ -1,0 +1,68 @@
+<context>
+  <project_info>
+    <name>tldraw-liveblocks-experiment</name>
+    <repository>https://github.com/ProductPeer/tldraw-liveblocks-experiment</repository>
+    <objective>Implement ProductPeer's AI-native canvas using tldraw + Liveblocks, with AI as a first-class collaborator from day 1</objective>
+  </project_info>
+
+  <critical_requirements>
+    <requirement priority="critical">AI-native from day 1 - AI must be a collaborative user with presence, not just a tool</requirement>
+    <requirement priority="critical">Access management from Phase 1 - private boards, permissions</requirement>
+    <requirement priority="critical">Card and CardStack custom blocks by Phase 2</requirement>
+    <requirement priority="critical">Lean Canvas with AI experts by Phase 3</requirement>
+  </critical_requirements>
+
+  <primary_documents>
+    <document path="product-docs/productpeer-bmf-prd.md" priority="critical">
+      Core product requirements - READ FIRST for AI-native vision
+    </document>
+    <document path="product-docs/tldraw-liveblocks-experiment-plan.md" priority="high">
+      Implementation plan with feature phases
+    </document>
+    <document path="CLAUDE.md" priority="high">
+      Project guidelines - note the "no time estimates" rule
+    </document>
+  </primary_documents>
+
+  <phase_1_goals>
+    <goal>Set up tldraw + Liveblocks with real-time collaboration</goal>
+    <goal>Implement AI as a collaborative user with cursor/presence</goal>
+    <goal>AI can see the board and generate sticky notes</goal>
+    <goal>Basic access management (private boards, simple permissions)</goal>
+    <goal>Document how AI integration differs from typical implementations</goal>
+  </phase_1_goals>
+
+  <ai_integration_notes>
+    AI should connect via WebSocket just like a human user, with its own cursor and presence. This is different from typical chatbot integrations.
+  </ai_integration_notes>
+</context>
+
+<instructions>
+  <primary_goal>
+    Build an AI-native canvas where AI is a first-class collaborator from day 1, not retrofitted later. Focus on making AI feel like another user on the board.
+  </primary_goal>
+
+  <workflow>
+    1. Read product-docs/ files, especially the PRD's AI-native philosophy
+    2. Clone the repo locally: git clone https://github.com/ProductPeer/tldraw-liveblocks-experiment
+    3. Initialize: npx create-liveblocks-app@latest --example nextjs-tldraw-whiteboard-storage --api-key
+    4. Set up TodoWrite to track: Basic canvas, AI integration, Access management, Testing
+    5. Implement AI as a WebSocket participant with presence
+    6. Use Task tool for parallel work (research tldraw AI patterns while coding)
+    7. Update experiment-log.md with progress and learnings
+    8. Take screenshots showing AI + human collaboration
+  </workflow>
+
+  <success_metrics>
+    - AI appears in the presence list
+    - AI has a visible cursor
+    - AI can create elements on the board
+    - Board is private by default
+    - Implementation complexity assessment
+    - Code quality and maintainability
+  </success_metrics>
+</instructions>
+
+<request>
+Start by cloning the repo and reading the PRD carefully to understand the AI-native vision. Then begin Phase 1 implementation with AI as a collaborative user from the start. Document any challenges with making AI feel like a "real" collaborator. Progress at your own pace - focus on quality over speed.
+</request>
