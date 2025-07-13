@@ -1,0 +1,104 @@
+
+> dev
+> next dev
+
+  ▲ Next.js 14.2.30
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 24s
+ ○ Compiling /api/ai ...
+ ✓ Compiled /api/ai in 1427ms (61 modules)
+AI API error: TypeError: this.client.enter is not a function
+    at LiveblocksAIClientSimple.connect (webpack-internal:///(rsc)/./app/services/ai/LiveblocksAIClientSimple.ts:18:33)
+    at POST (webpack-internal:///(rsc)/./app/api/ai/route.ts:21:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:6:57228
+    at async eT.execute (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:6:46851)
+    at async eT.handle (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:6:58760)
+    at async doRender (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:1366:42)
+    at async cacheEntry.responseCache.get.routeKind (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:1588:28)
+    at async DevServer.renderToResponseWithComponentsImpl (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:1496:28)
+    at async DevServer.renderPageComponent (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:1924:24)
+    at async DevServer.renderToResponseImpl (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:1962:32)
+    at async DevServer.pipeImpl (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:818:17)
+    at async /mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/lib/router-server.js:179:21)
+    at async handleRequest (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/lib/router-server.js:359:24)
+    at async requestHandlerImpl (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/lib/router-server.js:383:13)
+    at async Server.requestListener (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/lib/start-server.js:141:13)
+ POST /api/ai 500 in 3013ms
+AI API error: TypeError: this.client.enter is not a function
+    at LiveblocksAIClientSimple.connect (webpack-internal:///(rsc)/./app/services/ai/LiveblocksAIClientSimple.ts:18:33)
+    at POST (webpack-internal:///(rsc)/./app/api/ai/route.ts:21:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:6:57228
+    at async eT.execute (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:6:46851)
+    at async eT.handle (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:6:58760)
+    at async doRender (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:1366:42)
+    at async cacheEntry.responseCache.get.routeKind (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:1588:28)
+    at async DevServer.renderToResponseWithComponentsImpl (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:1496:28)
+    at async DevServer.renderPageComponent (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:1924:24)
+    at async DevServer.renderToResponseImpl (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:1962:32)
+    at async DevServer.pipeImpl (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:818:17)
+    at async /mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/lib/router-server.js:179:21)
+    at async handleRequest (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/lib/router-server.js:359:24)
+    at async requestHandlerImpl (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/lib/router-server.js:383:13)
+    at async Server.requestListener (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/lib/start-server.js:141:13)
+ POST /api/ai 500 in 81ms
+AI API error: TypeError: this.client.enter is not a function
+    at LiveblocksAIClientSimple.connect (webpack-internal:///(rsc)/./app/services/ai/LiveblocksAIClientSimple.ts:18:33)
+    at POST (webpack-internal:///(rsc)/./app/api/ai/route.ts:21:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:6:57228
+    at async eT.execute (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:6:46851)
+    at async eT.handle (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:6:58760)
+    at async doRender (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:1366:42)
+    at async cacheEntry.responseCache.get.routeKind (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:1588:28)
+    at async DevServer.renderToResponseWithComponentsImpl (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:1496:28)
+    at async DevServer.renderPageComponent (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:1924:24)
+    at async DevServer.renderToResponseImpl (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:1962:32)
+    at async DevServer.pipeImpl (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:818:17)
+    at async /mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/lib/router-server.js:179:21)
+    at async handleRequest (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/lib/router-server.js:359:24)
+    at async requestHandlerImpl (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/lib/router-server.js:383:13)
+    at async Server.requestListener (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/lib/start-server.js:141:13)
+ POST /api/ai 500 in 95ms
+AI API error: TypeError: this.client.enter is not a function
+    at LiveblocksAIClientSimple.connect (webpack-internal:///(rsc)/./app/services/ai/LiveblocksAIClientSimple.ts:18:33)
+    at POST (webpack-internal:///(rsc)/./app/api/ai/route.ts:21:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:6:57228
+    at async eT.execute (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:6:46851)
+    at async eT.handle (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/compiled/next-server/app-route.runtime.dev.js:6:58760)
+    at async doRender (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:1366:42)
+    at async cacheEntry.responseCache.get.routeKind (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:1588:28)
+    at async DevServer.renderToResponseWithComponentsImpl (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:1496:28)
+    at async DevServer.renderPageComponent (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:1924:24)
+    at async DevServer.renderToResponseImpl (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:1962:32)
+    at async DevServer.pipeImpl (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/base-server.js:818:17)
+    at async /mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/lib/router-server.js:179:21)
+    at async handleRequest (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/lib/router-server.js:359:24)
+    at async requestHandlerImpl (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/lib/router-server.js:383:13)
+    at async Server.requestListener (/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/tldraw-liveblocks-experiment/app/node_modules/next/dist/server/lib/start-server.js:141:13)
+ POST /api/ai 500 in 97ms

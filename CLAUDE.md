@@ -55,6 +55,12 @@ Main PRD: `/mnt/c/Users/tin/Vibe Coding/excalidraw-fork/productpeer/productpeer-
 - Frontend: `npm run dev` (in playground or frontend directory)
 - Backend: TBD when Kotlin/Micronaut project is set up
 
+## Development Server Management
+- **ALWAYS run and manage npm dev server yourself** - Don't ask the user to start/stop servers
+- **Fix all import errors automatically** - Check compilation errors and fix them without user intervention
+- **Test the app before declaring it working** - Ensure the app compiles and runs properly
+- **Handle all file path issues yourself** - Verify paths, fix imports, check file locations
+
 ## Git Best Practices
 - **NEVER use `git add .`** - Multiple sessions/terminals may be working on different features
 - Always add files specifically: `git add path/to/specific/file.ts`
